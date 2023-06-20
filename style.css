@@ -174,3 +174,21 @@ background-color: var(--botao-hover);
     color: var(--botao-azul);
     font-size: 20px;
 }
+
+@media (max-width: 1200px) {
+
+    .cabecalho{
+        padding: 10% ;
+    }
+    .cabecalho_menu{
+        justify-content: center;
+    }
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 5%;
+
+    } 
+    .apresentacao__conteudo{
+        width: auto;
+    }
+}
